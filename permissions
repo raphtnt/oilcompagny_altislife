@@ -1,0 +1,39 @@
+view_dashboard // Permet d'avoir access au bouton dashboard
+view_global // Permet d'avoir access au bouton global
+
+view_interim // Permet de voir sur la page global les intérimaires et avoir access au actions
+view_trajet // Permet de voir sur la page global les trajets en cours
+
+view_interim_page // Permet de voir la page de chaque intérimaires individuellement
+
+add_employe // Permet d'avoir access a la création d'un intérimaire pouvoir le mettre employé !
+add_prime // Permet d'ajouté une prime
+
+settings // Permet d'avoir access au parametres
+
+view_semaine_page
+add_rank
+
+delete_interim
+delete_member
+update_tel
+add_note
+
+
+Employe :
+["view_global", "view_interim", "view_trajet", "view_interim_page"]
+
+Responsable :
+["view_global", "view_interim", "view_trajet", "view_interim_page", "view_dashboard", "add_employe"]
+
+Gouvernement :
+["view_dashboard"]
+
+PDG :
+["*"]
+
+
+
+différents type dans note :
+0 = note
+1 = blacklist
